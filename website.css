@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(183, 153, 184);
+    padding: 10px;
+
+}
+.main-dive-one{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+
+}
+.my-name{
+    padding-right: 10px;
+}
+.center-me{
+    color: white;
+}
+.img{
+    border-radius: 50%;
+}
+
+
+
+.visiting-city{
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+.title{
+    padding-bottom:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.pic-and-paragraph{
+    display: flex;
+    
+
+}
+.city-paragraph{
+    padding-left: 10px;
+}
+.about-sydeny{
+    color: white;
+}
+
+.foreign-languege{
+    padding-bottom:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.fix{
+    padding-top: 20px;
+    padding-top: 20px;
+}
+.about-franch{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.table ,th,td{
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px ;
+    align-items:center ;
+}
+.SA-historrical{
+    padding-top: 30px;
+    flex: auto;
+    flex-wrap: wrap;
+}
+.main{
+    padding-top: 15px;
+    display:flex;
+
+} 
+.one ,.two ,.three{
+    display: flex;
+    flex-direction: row-reverse;
+   
+    
+}
+@media screen and (max-width:1050px){
+    .main{
+        flex-wrap: wrap;
+    }
+    .two{
+        flex-direction: row;
+        padding-top: 20px;
+    }
+    .three{
+        padding-top: 20px;
+    }
+}
