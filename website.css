@@ -21,6 +21,7 @@ body {
 }
 .center-me{
     color: white;
+    
 }
 .img{
     border-radius: 50%;
@@ -49,6 +50,10 @@ body {
 .about-sydeny{
     color: white;
 }
+.city-title{
+    text-align: center;
+}
+
 
 .foreign-languege{
     padding-bottom:30px;
@@ -59,6 +64,7 @@ body {
 .fix{
     padding-top: 20px;
     padding-top: 20px;
+    text-align: center;
 }
 .about-franch{
     padding-top: 15px;
@@ -77,26 +83,76 @@ body {
     flex: auto;
     flex-wrap: wrap;
 }
+.title-history{
+    text-align: center;
+}
 .main{
     padding-top: 15px;
     display:flex;
-
 } 
 .one ,.two ,.three{
     display: flex;
     flex-direction: row-reverse;
-   
     
 }
-@media screen and (max-width:1050px){
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width:760px){
     .main{
-        flex-wrap: wrap;
+        padding-top: 15px;
+        display:flex;
+        flex-direction: column;
+    } 
+    .one{
+        border: 4px solid white;
+       display: block; 
+       margin-bottom: 20px;
+     
     }
+    .one img{
+        float: left;
+        margin-right: 1rem;
+    }
+    
     .two{
-        flex-direction: row;
-        padding-top: 20px;
+        border: 4px solid white ;
+        display: block;
+        margin-bottom: 20px;
+        
+    }
+    .two img {
+        float: right;
+        margin-left: 1rem;
+
     }
     .three{
-        padding-top: 20px;
+        border: 4px solid white;
+        display: block;
+        margin-bottom: 20px;
+    
     }
+    .three img{
+        float: left;
+        margin-right: 1rem;
+    }
+    .pic-and-paragraph{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .about-franch{
+        text-align: center;
+    }
+    .city-pic{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .city-title{
+        text-align: center;
+    }
+    
+    
 }
